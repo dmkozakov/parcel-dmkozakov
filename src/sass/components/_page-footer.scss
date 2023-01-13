@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-bg-dark;
+}
+
+.footer__section {
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.page-footer {
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    text-align: start;
+  }
+}
+
+.page-footer__wrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
+
+.page-footer__inner {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
